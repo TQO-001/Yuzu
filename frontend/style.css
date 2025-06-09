@@ -2,37 +2,43 @@ body {
   font-family: Arial, sans-serif;
   max-width: 600px;
   margin: 40px auto;
-  padding: 10px;
   background: #f4f4f4;
   color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
 }
 
 form {
+  display: flex;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
 input {
-  margin: 5px;
-  padding: 8px;
+  flex: 1;
+  padding: 10px;
 }
 
 button {
-  padding: 8px 12px;
-  background-color: #0092d1;
+  padding: 10px;
+  background: #0092d1;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #007bb5;
+  background: #0077aa;
 }
 
 li {
-  margin: 10px 0;
+  background: #fff;
   padding: 10px;
-  background: white;
+  margin: 8px 0;
   display: flex;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 4px;
 }
